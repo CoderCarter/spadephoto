@@ -65,14 +65,6 @@ body {
     font-size: 35px;
     cursor: pointer;
 }
-
-hr.style-one { border: 0; 
-height: 1px; 
-background: #333; 
-background-image: 
-linear-gradient(to right, #333, #ccc, #333); 
-}
-
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
@@ -137,82 +129,85 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <!-- Grid for SQL photos -->
    <div style="text-align:center">
   <h2>SQLSaturday Baton Rouge 2018</h2>
- <!-- <p>Click on the images below:</p> -->
+  <p>Click on the images below:</p>
 </div>
 
 <!-- The 4x3 columns -->
-<div class="row">
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/sql01.jpg" alt="SQLSaturday 2018" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/sql02.jpg" alt="SQLSaturday 2018" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/sql03.jpg" alt="SQLSaturday 2018" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/sql04.jpg" alt="SQLSaturday 2018" style="width:100%">
-  </div>
-  <br>
-  <div class="row">
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/sql05.jpg" alt="SQLSaturday 2018" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/sql06.jpg" alt="SQLSaturday 2018" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/sql07.jpg" alt="SQLSaturday 2018" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/sql08.jpg" alt="SQLSaturday 2018" style="width:100%">
-  </div>
- 
+<div class="gallery-section"
+	<div class="row">
+	  <div class="column">
+		<img src="http://spadephoto.com/image/events/sql01.jpg" alt="Nature" style="width:100%">
+	  </div>
+	  <div class="column">
+		<img src="http://spadephoto.com/image/events/sql02.jpg" alt="Snow" style="width:100%">
+	  </div>
+	  <div class="column">
+		<img src="http://spadephoto.com/image/events/sql03.jpg" alt="Mountains" style="width:100%">
+	  </div>
+	  <div class="column">
+		<img src="http://spadephoto.com/image/events/sql04.jpg" alt="Lights" style="width:100%">
+	  </div>
+	  <br>
+	  <div class="row">
+	  <div class="column">
+		<img src="http://spadephoto.com/image/events/sql05.jpg" alt="Nature" style="width:100%" onclick="mainImage(this);">
+	  </div>
+	  <div class="column">
+		<img src="http://spadephoto.com/image/events/sql06.jpg" alt="Snow" style="width:100%" onclick="mainImage(this);">
+	  </div>
+	  <div class="column">
+		<img src="http://spadephoto.com/image/events/sql07.jpg" alt="Mountains" style="width:100%" onclick="mainImage(this);">
+	  </div>
+	  <div class="column">
+		<img src="http://spadephoto.com/image/events/sql08.jpg" alt="Lights" style="width:100%" onclick="mainImage(this);">
+	  </div>
+	 
+	</div>
+	 <div class="container">
+	  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+	  <img id="expandedImg" style="width:100%">
+	  <div id="imgtext"></div>
+	</div>
 </div>
- <div class="container">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="width:100%">
-  <div id="imgtext"></div>
-</div>
-
 
     <!-- End photo grid -->
     </div>
 <!-- Grid for SQL photos -->
-<hr class="style-one">
+
    <div style="text-align:center">
   <h2>Jazz Brunch Charity</h2>
- <!-- <p>Click on the images below:</p> -->
+  <p>Click on the images below:</p>
 </div>
 
 <!-- The 4x3 columns -->
-<div class="row">
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/jb01.jpg" alt="Jazz Brunch" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/jb02.jpg" alt="Jazz Brunch" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/jb03.jpg" alt="Jazz Brunch" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/jb04.jpg" alt="Jazz Brunch" style="width:100%">
-  </div>
-  <div class="row">
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/jb05.jpg" alt="Jazz Brunch" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/jb06.jpg" alt="Jazz Brunch" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/jb07.jpg" alt="Jazz Brunch" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/jb08.jpg" alt="Jazz Brunch" style="width:100%">
-  </div>
+<div class="gallery-section"
+	<div class="row">
+	  <div class="column">
+		<img src="http://spadephoto.com/image/events/jb01.jpg" alt="Nature" style="width:100%">
+	  </div>
+	  <div class="column">
+		<img src="http://spadephoto.com/image/events/jb02.jpg" alt="Snow" style="width:100%">
+	  </div>
+	  <div class="column">
+		<img src="http://spadephoto.com/image/events/jb03.jpg" alt="Mountains" style="width:100%">
+	  </div>
+	  <div class="column">
+		<img src="http://spadephoto.com/image/events/jb04.jpg" alt="Lights" style="width:100%">
+	  </div>
+	  <div class="row">
+	  <div class="column">
+		<img src="http://spadephoto.com/image/events/jb05.jpg" alt="Nature" style="width:100%" onclick="mainImage(this);">
+	  </div>
+	  <div class="column">
+		<img src="http://spadephoto.com/image/events/jb06.jpg" alt="Snow" style="width:100%" onclick="mainImage(this);">
+	  </div>
+	  <div class="column">
+		<img src="http://spadephoto.com/image/events/jb07.jpg" alt="Mountains" style="width:100%" onclick="mainImage(this);">
+	  </div>
+	  <div class="column">
+		<img src="http://spadephoto.com/image/events/jb08.jpg" alt="Lights" style="width:100%" onclick="mainImage(this);">
+	  </div>
+		</div>
 	</div>
 </div>
     <!-- End photo grid -->
@@ -264,15 +259,20 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <!-- END PAGE CONTENT -->
 </div>
 
-<!-- <script>
+<script>
 function mainImage(imgs) {
+	var gallerySections = document.querySelectorAll('.gallery-section')
+	for(var i = 0; i < gallerySections.length; i++){
+	var section = gallerySections[i];
+	var images = section.querySelectorAll('img')
+  //do stuff with the images
     var expandImg = document.getElementById("expandedImg");
     var imgText = document.getElementById("imgtext");
     expandImg.src = imgs.src;
     imgText.innerHTML = imgs.alt;
     expandImg.parentElement.style.display = "block";
 }
-</script> -->
+</script>
 </body>
 </html>
  

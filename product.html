@@ -1,78 +1,12 @@
 <!DOCTYPE html>
 <html>
-<title>Events</title>
+<title>Product Photography</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: Arial;
-}
-
-/* The grid: Four equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-}
-
-/* Style the images inside the grid */
-.column img {
-    opacity: 0.8; 
-    cursor: pointer; 
-}
-
-.column img:hover {
-    opacity: 1;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* The expanding image container */
-.container {
-    position: relative;
-    display: none;
-}
-
-/* Expanding image text */
-#imgtext {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    color: white;
-    font-size: 20px;
-}
-
-/* Closable button inside the expanded image */
-.closebtn {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    color: white;
-    font-size: 35px;
-    cursor: pointer;
-}
-
-hr.style-one { border: 0; 
-height: 1px; 
-background: #333; 
-background-image: 
-linear-gradient(to right, #333, #ccc, #333); 
-}
-
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
@@ -121,111 +55,56 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h1 class="w3-jumbo"><span class="w3-hide-small"></span> SPADE PHOTO</h1>
-    <p>Event Photography</p>
-    <img src="http://spadephoto.com/image/events/eventmain.jpg" style="width:100%">
+    <p>Product Photography</p>
+    <img src="http://spadephoto.com/image/product/pmain.jpg" style="width:90%">
   </header>
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <p class="w3-text-light-grey"> There are two major aspects when it comes to event photographs, a story, and visual documentation.  At Spade Photo we make it our goal to convey the story of any event through our images, and to provide a detail that will document the feel and activities that occur from start to finish. </p>
+    <p class="w3-text-light-grey"> The perceived value of any product is an important aspect when it comes to product photography.  Spade Photo excels in communicating the integrity of deliverable products in any form, from food, to vehicles.</p>
     <hr style="width:200px" class="w3-opacity">
     <br>
     
     
- 
-   <!-- Portfolio Section -->
-    <!-- Grid for SQL photos -->
-   <div style="text-align:center">
-  <h2>SQLSaturday Baton Rouge 2018</h2>
- <!-- <p>Click on the images below:</p> -->
-</div>
-
-<!-- The 4x3 columns -->
-<div class="row">
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/sql01.jpg" alt="SQLSaturday 2018" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/sql02.jpg" alt="SQLSaturday 2018" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/sql03.jpg" alt="SQLSaturday 2018" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/sql04.jpg" alt="SQLSaturday 2018" style="width:100%">
-  </div>
-  <br>
-  <div class="row">
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/sql05.jpg" alt="SQLSaturday 2018" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/sql06.jpg" alt="SQLSaturday 2018" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/sql07.jpg" alt="SQLSaturday 2018" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/sql08.jpg" alt="SQLSaturday 2018" style="width:100%">
-  </div>
- 
-</div>
- <div class="container">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="width:100%">
-  <div id="imgtext"></div>
-</div>
-
-
+  
+  <!-- Portfolio Section -->
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="http://spadephoto.com/image/product/p01.jpg" style="width:90%">
+        <img src="http://spadephoto.com/image/product/p02.jpg" style="width:90%">
+      </div>
+	<br>
+      <div class="w3-half">
+	    <img src="http://spadephoto.com/image/product/p03.jpg" style="width:90%">
+        <img src="http://spadephoto.com/image/product/p04.jpg" style="width:90%">       
+      </div>
+     <br> 
+	  <div class="w3-half">
+	  <img src="http://spadephoto.com/image/product/p09.jpg" style="width:90%">
+	  <img src="http://spadephoto.com/image/product/p10.jpg" style="width:90%">
+	  </div>
+	 <br> 
+	  <div class="w3-half">
+	    <img src="http://spadephoto.com/image/product/p11.jpg" style="width:90%">
+        <img src="http://spadephoto.com/image/product/p12.jpg" style="width:90%">
+	  </div>
+	  <br>
+	  <div class="w3-half">
+        <img src="http://spadephoto.com/image/product/p07.jpg" style="width:90%">
+        <img src="http://spadephoto.com/image/product/p08.jpg" style="width:90%">
+      </div>
+	  <br>
+	  <div class="w3-half">
+        <img src="http://spadephoto.com/image/product/p05.jpg" style="width:90%">
+        <img src="http://spadephoto.com/image/product/p06.jpg" style="width:90%">
+      </div>
     <!-- End photo grid -->
     </div>
-<!-- Grid for SQL photos -->
-<hr class="style-one">
-   <div style="text-align:center">
-  <h2>Jazz Brunch Charity</h2>
- <!-- <p>Click on the images below:</p> -->
-</div>
-
-<!-- The 4x3 columns -->
-<div class="row">
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/jb01.jpg" alt="Jazz Brunch" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/jb02.jpg" alt="Jazz Brunch" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/jb03.jpg" alt="Jazz Brunch" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/jb04.jpg" alt="Jazz Brunch" style="width:100%">
-  </div>
-  <div class="row">
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/jb05.jpg" alt="Jazz Brunch" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/jb06.jpg" alt="Jazz Brunch" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/jb07.jpg" alt="Jazz Brunch" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="http://spadephoto.com/image/events/jb08.jpg" alt="Jazz Brunch" style="width:100%">
-  </div>
-	</div>
-</div>
-    <!-- End photo grid -->
-  <div class="container">
-	<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-	<img id="expandedImg" style="width:100%">
-	<div id="imgtext"></div>
-  </div>
   <!-- End Portfolio Section -->
-
+  </div>
 
   <!-- Contact Section -->
-  <br><br>
   <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
     <h2 class="w3-text-light-grey">Contact Spade Photo</h2>
     <hr style="width:250px" class="w3-opacity">
@@ -264,15 +143,5 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <!-- END PAGE CONTENT -->
 </div>
 
-<!-- <script>
-function mainImage(imgs) {
-    var expandImg = document.getElementById("expandedImg");
-    var imgText = document.getElementById("imgtext");
-    expandImg.src = imgs.src;
-    imgText.innerHTML = imgs.alt;
-    expandImg.parentElement.style.display = "block";
-}
-</script> -->
 </body>
 </html>
- 
